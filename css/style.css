@@ -1,0 +1,232 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: #cccccc;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.first-bg {
+  position: absolute;
+  z-index: 1;
+  min-width: 1519px;
+}
+.first-page {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  border: none;
+  margin-left: 120px;
+}
+.header {
+  display: flex;
+}
+.logo-link {
+  display: flex;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.logo-link p {
+  margin: 0;
+}
+.logo-image {
+  margin-right: 15px;
+}
+.logo {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 19px;
+  margin-right: 600px;
+}
+.navbar-menu {
+  min-width: 457px;
+}
+.menu {
+  font-size: 23px;
+  line-height: 60px;
+  list-style: none;
+  display: flex; /* гибкий блок */
+  align-items: flex-end;
+  justify-content: space-between; /* разбросать элементы по краям */
+}
+.menu-item {
+  margin-right: 70px;
+}
+.main-text {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+  margin-top: 120px;
+}
+.main-description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  margin-top: 49px;
+  text-decoration: none;
+  display: inline-block;
+  background: #cd6326;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 42px;
+  font-size: 23px;
+  line-height: 27px;
+  margin-bottom: 360px;
+}
+.second-page {
+  color: #333333;
+}
+.second-title {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.second-subtitle {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+  margin: 0;
+  margin-bottom: 120px;
+}
+.card-container {
+  max-width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1 {
+  width: 300px;
+  height: 360px;
+  background-image: url(../img/first-card.jpg);
+}
+.card-2 {
+  width: 300px;
+  height: 360px;
+  background-image: url(../img/second-card.jpg);
+}
+.card-3 {
+  width: 300px;
+  height: 360px;
+  background-image: url(../img/third-card.jpg);
+}
+.card-text {
+  margin-top: 247px;
+  color: #f7f7f7;
+  text-align: center;
+}
+.main-card-text {
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+.card-subtext {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 27px;
+}
+.promotion {
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 240px;
+}
+
+.promotion-panel {
+  margin: auto;
+  width: 660px;
+  height: 60px;
+  background: black;
+  border: 1px, solid;
+  border-radius: 1px;
+  display: flex;
+  padding: 1px;
+  margin-top: 60px;
+  margin-bottom: 300px;
+}
+input[type="text"],
+textarea {
+  background-color: #cccccc;
+}
+::placeholder {
+  font-size: 23px;
+  line-height: 27px;
+  color: #666666;
+}
+.promotion-input {
+  flex-grow: 1; /* растягивается на всё свободное пространство */
+  border: 1px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.email-button {
+  border: none;
+  background: #cd6326;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 34px;
+  display: flex;
+  align-items: center;
+}
+.email-button-text {
+  font-size: 23px;
+  line-height: 27px;
+  margin-left: 5px;
+}
+.footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 150px;
+}
+.footer-logo {
+  width: fit-content;
+  height: fit-content;
+}
+.footer-menu {
+  font-size: 23px;
+  line-height: 60px;
+  list-style: none;
+  display: flex; /* гибкий блок */
+  align-items: center;
+  white-space: nowrap;
+}
+.footer-menu-item:not(:last-child) {
+  margin-right: 86px;
+}
+.footer-sn {
+  font-size: 23px;
+  line-height: 60px;
+  list-style: none;
+  display: flex; /* гибкий блок */
+  align-items: center;
+  white-space: nowrap;
+}
+.sn:not(:last-child) {
+  margin-right: 27px;
+}
